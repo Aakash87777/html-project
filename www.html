@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .box
+                {
+                position:absolute;
+                }
+                .first
+                {
+                    background-color:"red";
+                    z-index:11;
+                             
+                }
+                .second{
+                    background-color:green;
+                    z-index:2
+                }
+
+
+                 .scrolldiv 
+                 {
+                    width: 100px;
+                    height:100px;
+                    overflow:scrooll;
+                 }
+                 #gray
+                 {
+                    filter: grayscade(1);
+                 }
+                 #gray:hover
+                 {
+                    filter: sepia(1)
+                }
+    .anime
+    {
+        width:200px;
+        height:200px;
+        background-color: red;
+        animation:animedata 2s infinite;
+    } 
+    @keyframes animedata
+    {
+        from
+        {
+            background-color:green;
+         }
+      to
+      {
+        background-color:blue;
+      }
+        
+    }                                       
+</style>
+<body>
+    <div class="box">
+        first div
+    </div>
+    <div class="box">
+        second div
+    </div>
+    <div class="box">
+        Third Div        
+    </div>
+    <div class="scrolldiv">
+        ujhujhgdhdsighug
+        deheuioedyhe
+        dshueuogewuoedguioe
+        cfudeyuduigtoedguioceui
+        guodwqdquoqdgtuodguqo
+    </div>
+ <img src="masoom beta.webp" id="gray">
+     <div class="anime">
+
+     </div>
+
+</body>
+</html>
