@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        let  length=4
+        let breath=19
+        console.log(length*breath)
+    </script>
 </head>
 <style>
      .box
@@ -41,13 +46,13 @@
         width:200px;
         height:200px;
         background-color: red;
-        animation:animedata 2s infinite;
+        animation:animedata 0.3s infinite;
     } 
     @keyframes animedata
     {
         from
         {
-            background-color:green;
+            background-color:red;
          }
       to
       {
@@ -74,9 +79,11 @@
         guodwqdquoqdgtuodguqo
     </div>
  <img src="masoom beta.webp" id="gray">
-     <div class="anime">
-
+     <div id="check">
+        this is check id.
      </div>
-
+<script>
+    document.getElementById("check").innerHTML="cat eats all sats";
+</script>
 </body>
 </html>
